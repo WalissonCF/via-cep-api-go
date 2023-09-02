@@ -23,7 +23,7 @@ type ViaCEPResponse struct {
 const viaCEPURL = "https://viacep.com.br/ws/"
 
 func main() {
-	cep := "06341420"
+	cep := "01001000"
 
 	dadosCEP, err := ConsultaCEP(cep)
 	if err != nil {
